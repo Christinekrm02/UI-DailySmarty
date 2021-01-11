@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Logo from "../components/logo";
-import SearchBar from "../components/searchbar";
-import RecentPosts from "../components/recent-posts";
+import Logo from "./logo";
+import SearchBar from "./searchbar";
+import RecentPosts from "./recent-posts";
 
 export default class App extends Component {
   render() {
