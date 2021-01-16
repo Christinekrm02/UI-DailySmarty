@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 //import Logo from "../../static/assets/logos/crm.png";
 
 export default class Logo extends Component {
@@ -9,13 +10,16 @@ export default class Logo extends Component {
     };
     return (
       <div className="logo-main">
-        <img
-          style={size}
-          src={"/assets/logos/crm.png"}
-          height={200}
-          width={200}
-          alt="crm ui"
-        />
+        <Link to="/">
+          {" "}
+          <img
+            style={size}
+            src={"/assets/logos/crm.png"}
+            height={200}
+            width={200}
+            alt="crm ui"
+          />
+        </Link>
       </div>
     );
   }
