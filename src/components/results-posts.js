@@ -6,11 +6,11 @@ class ResultsPosts extends Component {
 
   renderPosts() {
     const posts = this.props.posts.map((post, index) => {
-      return <Post key={index} {...post} />;
+      return <Post key={index} {...post} type="result" />;
     });
     return posts;
   }
-  
+
   render() {
     return (
       <div className="results-posts">
