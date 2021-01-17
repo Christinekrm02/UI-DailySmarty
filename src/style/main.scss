@@ -8,9 +8,29 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  font-family: "montserrat";
+  /* font-family: "montserrat"; */
+}
+
+body {
+  font-family: "Lato", sans-serif;
 }
 
 .post-topic {
   margin: 0 4px;
+}
+
+/*centers all items on page. Can be found in bootstrap.js*/
+.app-wrapper {
+  display: grid;
+  justify-content: center;
+}
+
+/* Homepage styles */
+.home {
+  display: grid;
+  //grid-template-rows: 1fr 2fr 1fr;
+  align-content: space-around;
+  justify-items: center;
+  height: 100vh;
+  width: 66vw;
 }
