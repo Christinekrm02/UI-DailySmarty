@@ -34,3 +34,7 @@ body {
   height: 100vh;
   width: 66vw;
 }
+
+$color-gray-dark: #666666;
+$color-gray-light: #b3b3b3;
+@import "./searchbar.scss";
