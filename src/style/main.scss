@@ -24,17 +24,6 @@ body {
   display: grid;
   justify-content: center;
 }
-
-/* Homepage styles */
-.home {
-  display: grid;
-  align-content: space-around;
-  height: 100vh;
-  width: 66vw;
-  //grid-template-rows: 1fr 2fr 1fr;
-  //justify-items: stretch;
-}
-
 .logo-main,
 .recent-posts {
   display: grid;
@@ -49,5 +38,8 @@ $color-gray-dark: #666666;
 $color-gray-light: #b3b3b3;
 $color-blue-heading: #0079ff;
 
+@import "./mixins.scss";
 @import "./searchbar.scss";
 @import "./recent-posts.scss";
+@import "./home.scss";
+@import "./results.scss";
