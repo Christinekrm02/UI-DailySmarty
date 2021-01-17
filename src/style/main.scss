@@ -28,11 +28,11 @@ body {
 /* Homepage styles */
 .home {
   display: grid;
-  //grid-template-rows: 1fr 2fr 1fr;
   align-content: space-around;
-  justify-items: stretch;
   height: 100vh;
   width: 66vw;
+  //grid-template-rows: 1fr 2fr 1fr;
+  //justify-items: stretch;
 }
 
 .logo-main,
@@ -40,7 +40,14 @@ body {
   display: grid;
   justify-items: center;
 }
-
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 $color-gray-dark: #666666;
 $color-gray-light: #b3b3b3;
+$color-blue-heading: #0079ff;
+
 @import "./searchbar.scss";
+@import "./recent-posts.scss";
