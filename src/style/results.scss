@@ -33,5 +33,22 @@
       font-size: 18px;
       line-height: 17px;
     }
+    .result-posts-links {
+      // display: flex;
+    }
+  }
+}
+.post-link {
+  display: flex;
+  min-height: 70px;
+  .post-link-box {
+    min-width: 70px;
+    background-color: $color-gray-lighter;
+    margin-right: 16px;
+    .post-link-link a {
+      color: $color-gray-light;
+      font-size: 14px;
+      line-height: 17px;
+    }
   }
 }
